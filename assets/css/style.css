@@ -687,7 +687,37 @@ hr{
     border-radius: 16px;
     background: url("../Images/Rectangle\ 8\ \(1\).png"), lightgray 50% / cover no-repeat;
 }
+.save70{
+    width: 324px;
+    height: 120px;
+    transform: rotate(-20deg);
+    border-radius: 16px;
+    background: #FF5400;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    top: 225px;
+    left: 330px;
+}
+.save70-web{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.save70-discount{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
 
+}
     /* footer content */
 .footer-container{
     width: 100%;
