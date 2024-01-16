@@ -328,7 +328,222 @@ nav {
     align-items: center;
 }
 
-/* footer content */
+
+/* why choose us */
+.why-choose-us{
+    margin: 100px auto;
+    width: 1170px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.why-choose-us-content-head{
+    /* border: 2px #131318 solid; */
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.why-choose-us-content-head{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.why-choose-us-content-head-description{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.why-choose-us-cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+}
+.why-choose-us-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    width: 540px;
+    height: 284px;
+    padding: 15px;
+}
+.hotel{
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+.map{
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+.discount{
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+.why-choose-us-card-icon{
+    width: 64px;
+    height: 64px;
+}
+.why-choose-us-card-head{
+    color: #131318;
+    text-align: left;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.why-choose-us-card-head-description{
+    width: 486px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+
+
+
+/* deals-and-discounts */
+.deals-and-discounts{
+    width: 1170px;
+    margin: 110px auto;
+}
+
+.deals-and-discounts-content-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.deals-and-discounts-content-head{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deals-and-discounts-content-head-details{
+    width: 643px;
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.deals-and-discounts-packages{
+    display: flex;
+    flex-direction: column;
+}
+.deals-and-discounts-package-one{
+    width: 1170px;
+    height: 500px;
+
+    border-radius: 16px;
+    background: url("../Images/Group\ 39.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    margin: 50px auto;
+    /* padding: 50px auto; */
+}
+
+.deals-and-discounts-package-two{
+    width: 1170px;
+    height: 500px;
+    
+    border-radius: 16px;
+    background: url("../Images/Group\ 40.png");
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: row;
+    margin: 50px auto;
+}
+    
+    
+.card{
+    width: 529px;
+    height: 339px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    margin: auto 50px;
+    padding: 30px;
+
+}
+.package-card-head{
+    display: flex;
+    align-items: center;
+}
+.package-card-item{
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+.package-card-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.package-card-description{
+    width: 452px;
+
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.package-card-price{
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.package-card-button{
+    width: 150px;
+    height: 52px;
+    border: 0;
+    border-radius: 8px;
+    background: #FF5400;
+}
+
+
+    /* footer content */
 .footer-container{
     width: 100%;
     height: 502px;
@@ -368,5 +583,5 @@ nav {
     margin-bottom: 50px;
 }
 .footer-content-copyright{
- 
+ width: auto;
 }
