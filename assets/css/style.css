@@ -1,31 +1,36 @@
-body{
-    /* border: 2px solid red; */
+body {
     background: #FFF;
     font-family: Mulish;
     max-width: 1440px;
     margin: 0 auto;
 }
-.header-section{
+
+.header-section {
     max-width: 1170px;
     /* height: 6940px; */
     margin: 0 auto;
 }
-nav{
+
+nav {
     display: flex;
-    align-items: center; /*vertical center*/
+    align-items: center;
+    /*vertical center*/
     justify-content: space-between;
     /* border: 1px blue solid; */
 }
-.nav-container{
+
+.nav-container {
     display: flex;
-    align-items: center;    
+    align-items: center;
     /* border: 1px green solid; */
 }
-.website-logo{
+
+.website-logo {
     width: 56px;
     height: 48px;
 }
-.website-name{
+
+.website-name {
     margin-left: 17px;
     color: #131318;
     font-family: Mulish;
@@ -34,7 +39,8 @@ nav{
     font-weight: 800;
     line-height: normal;
 }
-.special{
+
+.special {
     color: #FF5400;
     font-family: Mulish;
     font-size: 36px;
@@ -44,7 +50,7 @@ nav{
 
 }
 
-.item-container{
+.item-container {
     list-style: none;
     display: flex;
     text-decoration: none;
@@ -56,17 +62,19 @@ nav{
     font-weight: 400;
     line-height: normal;
 }
-.item-container>li{
+
+.item-container>li {
     margin-left: 20px;
 }
-.item-special{
+
+.item-special {
     color: #FF5400;
 }
 
 /* banner section */
-.banner-section{
+.banner-section {
     margin: 0 auto;
-    background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
     width: 1170px;
     height: 500px;
     border-radius: 16px;
@@ -75,7 +83,8 @@ nav{
     justify-content: center;
     align-items: center;
 }
-.banner-content-container{
+
+.banner-content-container {
     color: #FFF;
     font-family: Mulish;
     font-size: 64px;
@@ -83,11 +92,13 @@ nav{
     font-weight: 800;
     line-height: normal;
 }
-.title{
+
+.title {
     width: 600px;
     height: 80px;
 }
-.banner-content-description{
+
+.banner-content-description {
     color: #FFF;
     text-align: center;
     font-family: Mulish;
@@ -97,11 +108,13 @@ nav{
     line-height: 26px;
     margin-bottom: 48px;
 }
-.description{
+
+.description {
     width: 670px;
     height: 52px;
 }
-.banner-content-search-destination{
+
+.banner-content-search-destination {
     width: 800px;
     /* height: 84px; */
     display: flex;
@@ -112,7 +125,8 @@ nav{
     padding: 16px;
     gap: 24px;
 }
-.input-item{
+
+.input-item {
     width: 174px;
     height: 52px;
     border: 0;
@@ -120,14 +134,15 @@ nav{
     background: #FFF;
     color: rgba(19, 19, 24, 0.50);
     text-align: left;
-    padding: 0 10px ;
+    padding: 0 10px;
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-.common-btn{
+
+.common-btn {
     border-radius: 8px;
     background: #FF5400;
     color: #FFF;
@@ -136,19 +151,21 @@ nav{
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
-    line-height: normal;;
+    line-height: normal;
+    ;
 
 }
 
 /* popular tour plans section */
-.popular-tours{
+.popular-tours {
     margin: 100px auto;
     width: 1170px;
     height: 500px;
     display: flex;
     justify-content: space-between;
 }
-.popular-tours-content{
+
+.popular-tours-content {
     /* border: 1px solid red; */
     color: rgba(19, 19, 24, 0.70);
     font-family: Mulish;
@@ -161,7 +178,7 @@ nav{
     padding: 0;
 }
 
-.popular-tours-content-head{
+.popular-tours-content-head {
     color: #131318;
     text-align: left;
     font-family: Mulish;
@@ -171,23 +188,25 @@ nav{
     line-height: normal;
 }
 
-.popular-tour-btn{
+.popular-tour-btn {
     width: 174px;
     height: 52px;
     border: 0;
 }
 
 /* Chose your destination */
-.destination-choice{
+.destination-choice {
     margin: 100px auto;
     width: 1170px;
 }
-.destination-choice-content{
+
+.destination-choice-content {
     margin: 20px auto;
     /* border: 1px solid red; */
     width: 643px;
 }
-.destination-choice-content-head{
+
+.destination-choice-content-head {
     color: #131318;
     text-align: center;
     font-family: Mulish;
@@ -196,7 +215,8 @@ nav{
     font-weight: 800;
     line-height: normal;
 }
-.destination-choice-content-description{
+
+.destination-choice-content-description {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-family: Mulish;
@@ -205,10 +225,105 @@ nav{
     font-weight: 400;
     line-height: 26px;
 }
-.destination-choice-images{
-    /* border: 2px solid red; */
+
+.destination-choice-images {
     display: flex;
     flex-wrap: wrap;
     gap: 12px;
     justify-content: space-between;
+    border-radius: 16px;
+}
+
+.destination-choice-image-text {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.destination-choice-image-Maldives {
+    width: 573px;
+    height: 300px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+        url("../Images/Rectangle\ 5.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination-choice-image-Indonesia {
+    width: 573px;
+    height: 300px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+        url("../Images/Rectangle\ 8.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination-choice-image-Srilanka {
+    width: 374px;
+    height: 286px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+        url("../Images/Rectangle\ 6.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination-choice-image-NorthAmerica {
+    width: 474px;
+    height: 286px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+        url("../Images/Rectangle\ 7.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination-choice-image-Kasmir {
+    width: 274px;
+    height: 286px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+        url("../Images/Rectangle\ 9.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination-choice-image-Bangladesh {
+    width: 473px;
+    height: 300px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+        url("../Images/Rectangle\ 11.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.destination-choice-image-Bandarban {
+    width: 673px;
+    height: 300px;
+    /* border: 2px solid red; */
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+        url("../Images/Rectangle\ 10.png"), lightgray 50% / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
