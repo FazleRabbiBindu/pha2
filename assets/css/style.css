@@ -427,6 +427,10 @@ nav {
 .deals-and-discounts{
     width: 1170px;
     margin: 110px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .deals-and-discounts-content-container{
@@ -485,8 +489,7 @@ nav {
     flex-direction: row;
     margin: 50px auto;
 }
-    
-    
+      
 .card{
     width: 529px;
     height: 339px;
@@ -498,15 +501,18 @@ nav {
     padding: 30px;
 
 }
+
 .package-card-head{
     display: flex;
     align-items: center;
 }
+
 .package-card-item{
     display: flex;
     align-items: center;
     margin: auto;
 }
+
 .package-card-title{
     color: #131318;
     font-family: Mulish;
@@ -515,6 +521,7 @@ nav {
     font-weight: 800;
     line-height: normal;
 }
+
 .package-card-description{
     width: 452px;
 
@@ -525,6 +532,7 @@ nav {
     font-weight: 400;
     line-height: 26px;
 }
+
 .package-card-price{
     color: #FF5400;
     font-family: Mulish;
@@ -542,6 +550,143 @@ nav {
     background: #FF5400;
 }
 
+/* get lost */
+.get-lost{
+        width: 1170px;
+        margin: 110px auto;
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: space-between;
+}
+.get-lost-container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.get-lost-content{
+    width: 532px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.get-lost-head{
+    width: 448px;
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+}
+.get-lost-description{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.get-lost-description>ul {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+
+}
+
+.get-lost-video{
+    width: 610px;
+    height: 424px;
+    border-radius: 16px;
+    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
+}
+
+    /*newsletter  */
+.newsletter{
+    width: 1170px;
+    margin: 110px auto;
+
+    display: flex;
+    gap: 10px;
+    justify-content: space-between;
+}
+.newsletter-form-card{
+    display: flex;
+    flex-direction: column;
+
+    width: 474px;
+    height: 422px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.newsletter-head{
+
+    /* border: ; */
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.newsletter-subtitle{
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+
+}
+hr{
+    width: 400px;
+    height: 1px;
+    background: rgba(19, 19, 24, 0.10);
+}
+.newsletter-form-input{
+    border: 0;
+    width: 420px;
+    height: 50px;
+    padding: 0 10px;
+    margin-bottom: 16px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+
+
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.form-container>input[type="submit"]
+{
+    background: #FF5400;
+    color: #FFF;
+    text-align: center;
+    font-size: 20px;
+}
+
+.newsletter-promotion{
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+    background: url("../Images/Rectangle\ 8\ \(1\).png"), lightgray 50% / cover no-repeat;
+}
 
     /* footer content */
 .footer-container{
