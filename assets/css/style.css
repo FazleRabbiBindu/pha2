@@ -1,4 +1,4 @@
-body {
+    body {
     background: #FFF;
     font-family: Mulish;
     max-width: 1440px;
@@ -7,27 +7,26 @@ body {
 
 .header-section {
     max-width: 1170px;
-    /* height: 6940px; */
     margin: 0 auto;
 }
 
 nav {
     display: flex;
     align-items: center;
-    /*vertical center*/
     justify-content: space-between;
-    /* border: 1px blue solid; */
 }
 
 .nav-container {
     display: flex;
     align-items: center;
-    /* border: 1px green solid; */
+}
+.item-hamburger{
+    display: none;
 }
 
 .website-logo {
-    width: 56px;
-    height: 48px;
+    width: 3rem;
+    height: 3rem;
 }
 
 .website-name {
@@ -73,50 +72,50 @@ nav {
 
 /* banner section */
 .banner-section {
-    margin: 0 auto;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
-    width: 1170px;
-    height: 500px;
-    border-radius: 16px;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    width: 74rem;
+    height: 30rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.banner-content-container {
+    width: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.banner-content-container {
+.banner-content-container-title {
     color: #FFF;
     font-family: Mulish;
-    font-size: 64px;
+    font-size: 3rem;
     font-style: normal;
     font-weight: 800;
     line-height: normal;
 }
 
-.title {
-    width: 600px;
-    height: 80px;
-}
-
 .banner-content-description {
+    width: 670px;
+    height: 52px;
     color: #FFF;
     text-align: center;
     font-family: Mulish;
-    font-size: 16px;
+    font-size: 1rem;
     font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    margin-bottom: 48px;
 }
 
-.description {
-    width: 670px;
-    height: 52px;
-}
 
 .banner-content-search-destination {
     width: 800px;
-    /* height: 84px; */
+    height: 84px;
     display: flex;
     align-items: center;
     justify-content: center;
