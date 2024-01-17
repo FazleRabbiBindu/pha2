@@ -215,38 +215,45 @@
     .get-lost {
         width: 335px;
     }
-    .get-lost-container{
+
+    .get-lost-container {
         flex-direction: column;
     }
-    .get-lost-content{
+
+    .get-lost-content {
         width: auto;
     }
-    .get-lost-head{
+
+    .get-lost-head {
         width: 248px;
         color: #131318;
         font-size: 20px;
         line-height: 30px;
     }
-    .get-lost-video>iframe{
+
+    .get-lost-video>iframe {
         width: 335px;
-        height: 200px; 
+        height: 200px;
     }
 
-        /* payment systems */
-        .payment-section {
-            width: 335px;
-            margin-bottom: 100px;
-        }
-    .payment-head{
-            font-size: 30px;
+    /* payment systems */
+    .payment-section {
+        width: 335px;
+        margin-bottom: 100px;
     }
-    .payment-icon-container{
+
+    .payment-head {
+        font-size: 30px;
+    }
+
+    .payment-icon-container {
         display: flex;
         justify-content: center;
         flex-direction: row;
         gap: 20px;
     }
-    .payment-icon{
+
+    .payment-icon {
         border: white;
         border-radius: 50%;
         width: 20%;
@@ -255,58 +262,69 @@
 
 
     /*newsletter  */
-    .newsletter{
+    .newsletter {
         width: 335px;
         margin: 20px auto;
         flex-direction: column;
         justify-content: center;
     }
-    .newsletter-form-card{
+
+    .newsletter-form-card {
         width: 335px;
         height: 353px;
     }
-    .newsletter-head{
+
+    .newsletter-head {
         font-size: 20px;
     }
 
-    .newsletter-subtitle{
+    .newsletter-subtitle {
         width: 270;
     }
-    hr{
+
+    hr {
         width: 288px;
     }
-    .newsletter-form-input{
+
+    .newsletter-form-input {
         width: 288px;
     }
-    .newsletter-promotion{
+
+    .newsletter-promotion {
         margin: auto;
         width: 335px;
         height: 300px;
     }
-    .save70{
+
+    .save70 {
         height: 80px;
         width: 214px;
         position: relative;
         top: 170px;
         left: 110px;
     }
-    .save70-web{
+
+    .save70-web {
         font-size: 16px;
     }
-    .save70-discount{
+
+    .save70-discount {
         font-size: 20px;
     }
+
     /* footer content */
-    .footer-container{
+    .footer-container {
         width: auto;
         height: max-content;
     }
-    .footer-content-aboutUs-details{
+
+    .footer-content-aboutUs-details {
         width: 287px;
         font-size: 14px;
         line-height: 24px;
     }
-    .footer-content-horizontal-line{
+
+    .footer-content-horizontal-line {
         width: 335px;
     }
 
