@@ -201,7 +201,6 @@ nav {
 
 .destination-choice-content {
     margin: 20px auto;
-    /* border: 1px solid red; */
     width: 643px;
 }
 
@@ -246,7 +245,6 @@ nav {
 .destination-choice-image-Maldives {
     width: 573px;
     height: 300px;
-    /* border: 2px solid red; */
     border-radius: 16px;
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
         url("../Images/Rectangle\ 5.png"), lightgray 50% / cover no-repeat;
@@ -474,7 +472,6 @@ nav {
     flex-direction: row-reverse;
     align-items: center;
     margin: 50px auto;
-    /* padding: 50px auto; */
 }
 
 .deals-and-discounts-package-two{
@@ -553,10 +550,6 @@ nav {
 .get-lost{
         width: 1170px;
         margin: 110px auto;
-        display: flex;
-        flex-direction: column; 
-        align-items: center;
-        justify-content: space-between;
 }
 .get-lost-container{
     width: 100%;
@@ -596,11 +589,9 @@ nav {
 
 }
 
-.get-lost-video{
+.get-lost-video>iframe{
     width: 610px;
     height: 424px;
-    border-radius: 16px;
-    background: linear-gradient(180deg, #131318 -31.96%, rgba(19, 19, 24, 0.00) 100%);
 }
 
     /*newsletter  */
