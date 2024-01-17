@@ -231,6 +231,29 @@
         width: 335px;
         height: 200px; 
     }
+
+        /* payment systems */
+        .payment-section {
+            width: 335px;
+            margin-bottom: 100px;
+        }
+    .payment-head{
+            font-size: 30px;
+    }
+    .payment-icon-container{
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        gap: 20px;
+    }
+    .payment-icon{
+        border: white;
+        border-radius: 50%;
+        width: 20%;
+        box-shadow: 5px 5px 10px #888888;
+    }
+
+
     /*newsletter  */
     .newsletter{
         width: 335px;

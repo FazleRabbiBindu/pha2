@@ -1,752 +1,808 @@
     body {
-    background: #FFF;
-    font-family: Mulish;
-    max-width: 1440px;
-    margin: 0 auto;
-}
+        background: #FFF;
+        font-family: Mulish;
+        max-width: 1440px;
+        margin: 0 auto;
+    }
 
-.header-section {
-    max-width: 1170px;
-    margin: 0 auto;
-}
+    .header-section {
+        max-width: 1170px;
+        margin: 0 auto;
+    }
 
-nav {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
 
-.nav-container {
-    display: flex;
-    align-items: center;
-}
-.item-hamburger{
-    display: none;
-}
+    .nav-container {
+        display: flex;
+        align-items: center;
+    }
 
-.website-logo {
-    width: 3rem;
-    height: 3rem;
-}
+    .item-hamburger {
+        display: none;
+    }
 
-.website-name {
-    margin-left: 17px;
-    color: #131318;
-    font-family: Mulish;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
+    .website-logo {
+        width: 3rem;
+        height: 3rem;
+    }
 
-.special {
-    color: #FF5400;
-    font-family: Mulish;
-    font-size: 36px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
+    .website-name {
+        margin-left: 17px;
+        color: #131318;
+        font-family: Mulish;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
 
-}
+    .special {
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
 
-.item-container {
-    list-style: none;
-    display: flex;
-    text-decoration: none;
-    color: #424247;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 18px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
+    }
 
-.item-container>li {
-    margin-left: 20px;
-}
+    .item-container {
+        list-style: none;
+        display: flex;
+        text-decoration: none;
+        color: #424247;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
 
-.item-special {
-    color: #FF5400;
-}
+    .item-container>li {
+        margin-left: 20px;
+    }
 
-/* banner section */
-.banner-section {
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
-    background-repeat: no-repeat;
-    margin: 0 auto;
-    width: 74rem;
-    height: 30rem;
-    border-radius: 1rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
+    .item-special {
+        color: #FF5400;
+    }
 
-.banner-content-container {
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+    /* banner section */
+    .banner-section {
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url("../Images/Group\ 13\ \(1\)\ \(1\).png");
+        background-repeat: no-repeat;
+        margin: 0 auto;
+        width: 74rem;
+        height: 30rem;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
 
-.banner-content-container-title {
-    color: #FFF;
-    font-family: Mulish;
-    font-size: 3rem;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
+    .banner-content-container {
+        width: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 
-.banner-content-description {
-    width: 670px;
-    height: 52px;
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 1rem;
-    font-style: normal;
-}
+    .banner-content-container-title {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 3rem;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
 
-
-.banner-content-search-destination {
-    width: 800px;
-    height: 84px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
-    padding: 16px;
-    gap: 24px;
-}
-
-.input-item {
-    width: 174px;
-    height: 52px;
-    border: 0;
-    border-radius: 8px;
-    background: #FFF;
-    color: rgba(19, 19, 24, 0.50);
-    text-align: left;
-    padding: 0 10px;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.common-btn {
-    border-radius: 8px;
-    background: #FF5400;
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    ;
-
-}
-
-/* popular tour plans section */
-.popular-tours {
-    margin: 100px auto;
-    width: 1170px;
-    height: 500px;
-    display: flex;
-    justify-content: space-between;
-}
-
-.popular-tours-content {
-    /* border: 1px solid red; */
-    color: rgba(19, 19, 24, 0.70);
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-    width: 577px;
-    margin: 0;
-    padding: 0;
-}
-
-.popular-tours-content-head {
-    color: #131318;
-    text-align: left;
-    font-family: Mulish;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.popular-tour-btn {
-    width: 174px;
-    height: 52px;
-    border: 0;
-}
-
-/* Chose your destination */
-.destination-choice {
-    margin: 100px auto;
-    width: 1170px;
-}
-
-.destination-choice-content {
-    margin: 20px auto;
-    width: 643px;
-}
-
-.destination-choice-content-head {
-    color: #131318;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.destination-choice-content-description {
-    color: rgba(19, 19, 24, 0.70);
-    text-align: center;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-}
-
-.destination-choice-images {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: space-between;
-    border-radius: 16px;
-}
-
-.destination-choice-image-text {
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 28px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.destination-choice-image-Maldives {
-    width: 573px;
-    height: 300px;
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
-        url("../Images/Rectangle\ 5.png"), lightgray 50% / cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.destination-choice-image-Indonesia {
-    width: 573px;
-    height: 300px;
-    /* border: 2px solid red; */
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
-        url("../Images/Rectangle\ 8.png"), lightgray 50% / cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.destination-choice-image-Srilanka {
-    width: 374px;
-    height: 286px;
-    /* border: 2px solid red; */
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
-        url("../Images/Rectangle\ 6.png"), lightgray 50% / cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.destination-choice-image-NorthAmerica {
-    width: 474px;
-    height: 286px;
-    /* border: 2px solid red; */
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
-        url("../Images/Rectangle\ 7.png"), lightgray 50% / cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.destination-choice-image-Kasmir {
-    width: 274px;
-    height: 286px;
-    /* border: 2px solid red; */
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
-        url("../Images/Rectangle\ 9.png"), lightgray 50% / cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.destination-choice-image-Bangladesh {
-    width: 473px;
-    height: 300px;
-    /* border: 2px solid red; */
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
-        url("../Images/Rectangle\ 11.png"), lightgray 50% / cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.destination-choice-image-Bandarban {
-    width: 673px;
-    height: 300px;
-    /* border: 2px solid red; */
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
-        url("../Images/Rectangle\ 10.png"), lightgray 50% / cover no-repeat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+    .banner-content-description {
+        width: 670px;
+        height: 52px;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 1rem;
+        font-style: normal;
+    }
 
 
-/* why choose us */
-.why-choose-us{
-    margin: 100px auto;
-    width: 1170px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.why-choose-us-content-head{
-    /* border: 2px #131318 solid; */
-    color: #131318;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-.why-choose-us-content-head{
-    color: #131318;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
+    .banner-content-search-destination {
+        width: 800px;
+        height: 84px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.30);
+        padding: 16px;
+        gap: 24px;
+    }
 
-.why-choose-us-content-head-description{
-    width: 643px;
-    color: rgba(19, 19, 24, 0.70);
-    text-align: center;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-}
+    .input-item {
+        width: 174px;
+        height: 52px;
+        border: 0;
+        border-radius: 8px;
+        background: #FFF;
+        color: rgba(19, 19, 24, 0.50);
+        text-align: left;
+        padding: 0 10px;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
 
-.why-choose-us-cards{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
-    justify-content: center;
-}
-.why-choose-us-card{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    width: 540px;
-    height: 284px;
-    padding: 15px;
-}
-.hotel{
-    border-radius: 16px;
-    border: 1px solid rgba(251, 181, 99, 0.20);
-    background: rgba(251, 181, 99, 0.05);
-}
-.map{
-    border-radius: 16px;
-    border: 1px solid rgba(41, 206, 246, 0.20);
-    background: rgba(41, 206, 246, 0.05);
-}
-.discount{
-    border-radius: 16px;
-    border: 1px solid rgba(233, 68, 68, 0.20);
-    background: rgba(233, 68, 68, 0.05);
-}
-.why-choose-us-card-icon{
-    width: 64px;
-    height: 64px;
-}
-.why-choose-us-card-head{
-    color: #131318;
-    text-align: left;
-    font-family: Mulish;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-.why-choose-us-card-head-description{
-    width: 486px;
-    color: #5A5A5D;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
+    .common-btn {
+        border-radius: 8px;
+        background: #FF5400;
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        ;
 
-}
+    }
+
+    /* popular tour plans section */
+    .popular-tours {
+        margin: 100px auto;
+        width: 1170px;
+        height: 500px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .popular-tours-content {
+        /* border: 1px solid red; */
+        color: rgba(19, 19, 24, 0.70);
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+        width: 577px;
+        margin: 0;
+        padding: 0;
+    }
+
+    .popular-tours-content-head {
+        color: #131318;
+        text-align: left;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .popular-tour-btn {
+        width: 174px;
+        height: 52px;
+        border: 0;
+    }
+
+    /* Chose your destination */
+    .destination-choice {
+        margin: 100px auto;
+        width: 1170px;
+    }
+
+    .destination-choice-content {
+        margin: 20px auto;
+        width: 643px;
+    }
+
+    .destination-choice-content-head {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .destination-choice-content-description {
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .destination-choice-images {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: space-between;
+        border-radius: 16px;
+    }
+
+    .destination-choice-image-text {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 28px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .destination-choice-image-Maldives {
+        width: 573px;
+        height: 300px;
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+            url("../Images/Rectangle\ 5.png"), lightgray 50% / cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .destination-choice-image-Indonesia {
+        width: 573px;
+        height: 300px;
+        /* border: 2px solid red; */
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+            url("../Images/Rectangle\ 8.png"), lightgray 50% / cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .destination-choice-image-Srilanka {
+        width: 374px;
+        height: 286px;
+        /* border: 2px solid red; */
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+            url("../Images/Rectangle\ 6.png"), lightgray 50% / cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .destination-choice-image-NorthAmerica {
+        width: 474px;
+        height: 286px;
+        /* border: 2px solid red; */
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+            url("../Images/Rectangle\ 7.png"), lightgray 50% / cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .destination-choice-image-Kasmir {
+        width: 274px;
+        height: 286px;
+        /* border: 2px solid red; */
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+            url("../Images/Rectangle\ 9.png"), lightgray 50% / cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .destination-choice-image-Bangladesh {
+        width: 473px;
+        height: 300px;
+        /* border: 2px solid red; */
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+            url("../Images/Rectangle\ 11.png"), lightgray 50% / cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .destination-choice-image-Bandarban {
+        width: 673px;
+        height: 300px;
+        /* border: 2px solid red; */
+        border-radius: 16px;
+        background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%),
+            url("../Images/Rectangle\ 10.png"), lightgray 50% / cover no-repeat;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+    /* why choose us */
+    .why-choose-us {
+        margin: 100px auto;
+        width: 1170px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .why-choose-us-content-head {
+        /* border: 2px #131318 solid; */
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .why-choose-us-content-head {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .why-choose-us-content-head-description {
+        width: 643px;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .why-choose-us-cards {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 12px;
+        justify-content: center;
+    }
+
+    .why-choose-us-card {
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+        width: 540px;
+        height: 284px;
+        padding: 15px;
+    }
+
+    .hotel {
+        border-radius: 16px;
+        border: 1px solid rgba(251, 181, 99, 0.20);
+        background: rgba(251, 181, 99, 0.05);
+    }
+
+    .map {
+        border-radius: 16px;
+        border: 1px solid rgba(41, 206, 246, 0.20);
+        background: rgba(41, 206, 246, 0.05);
+    }
+
+    .discount {
+        border-radius: 16px;
+        border: 1px solid rgba(233, 68, 68, 0.20);
+        background: rgba(233, 68, 68, 0.05);
+    }
+
+    .why-choose-us-card-icon {
+        width: 64px;
+        height: 64px;
+    }
+
+    .why-choose-us-card-head {
+        color: #131318;
+        text-align: left;
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .why-choose-us-card-head-description {
+        width: 486px;
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+
+    }
 
 
 
-/* deals-and-discounts */
-.deals-and-discounts{
-    width: 1170px;
-    margin: 110px auto;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-}
-
-.deals-and-discounts-content-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.deals-and-discounts-content-head{
-    color: #131318;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.deals-and-discounts-content-head-details{
-    width: 643px;
-    color: rgba(19, 19, 24, 0.70);
-    text-align: center;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-}
-
-.deals-and-discounts-packages{
-    display: flex;
-    flex-direction: column;
-}
-.deals-and-discounts-package-one{
-    width: 1170px;
-    height: 500px;
-
-    border-radius: 16px;
-    background: url("../Images/Group\ 39.png");
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    margin: 50px auto;
-}
-
-.deals-and-discounts-package-two{
-    width: 1170px;
-    height: 500px;
-    
-    border-radius: 16px;
-    background: url("../Images/Group\ 40.png");
-    background-repeat: no-repeat;
-    display: flex;
-    flex-direction: row;
-    margin: 50px auto;
-}
-      
-.card{
-    width: 529px;
-    height: 339px;
-    border-radius: 16px;
-    border: 2px solid #FFF;
-    background: rgba(255, 255, 255, 0.80);
-    backdrop-filter: blur(2.5px);
-    margin: auto 50px;
-    padding: 30px;
-
-}
-
-.package-card-head{
-    display: flex;
-    align-items: center;
-}
-
-.package-card-item{
-    display: flex;
-    align-items: center;
-    margin: auto;
-}
-
-.package-card-title{
-    color: #131318;
-    font-family: Mulish;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.package-card-description{
-    width: 452px;
-
-    color: #5A5A5D;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-}
-
-.package-card-price{
-    color: #FF5400;
-    font-family: Mulish;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-
-.package-card-button{
-    width: 150px;
-    height: 52px;
-    border: 0;
-    border-radius: 8px;
-    background: #FF5400;
-}
-
-/* get lost */
-.get-lost{
+    /* deals-and-discounts */
+    .deals-and-discounts {
         width: 1170px;
         margin: 110px auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .deals-and-discounts-content-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .deals-and-discounts-content-head {
+        color: #131318;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .deals-and-discounts-content-head-details {
+        width: 643px;
+        color: rgba(19, 19, 24, 0.70);
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .deals-and-discounts-packages {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .deals-and-discounts-package-one {
+        width: 1170px;
+        height: 500px;
+
+        border-radius: 16px;
+        background: url("../Images/Group\ 39.png");
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        margin: 50px auto;
+    }
+
+    .deals-and-discounts-package-two {
+        width: 1170px;
+        height: 500px;
+
+        border-radius: 16px;
+        background: url("../Images/Group\ 40.png");
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: row;
+        margin: 50px auto;
+    }
+
+    .card {
+        width: 529px;
+        height: 339px;
+        border-radius: 16px;
+        border: 2px solid #FFF;
+        background: rgba(255, 255, 255, 0.80);
+        backdrop-filter: blur(2.5px);
+        margin: auto 50px;
+        padding: 30px;
+
+    }
+
+    .package-card-head {
+        display: flex;
+        align-items: center;
+    }
+
+    .package-card-item {
+        display: flex;
+        align-items: center;
+        margin: auto;
+    }
+
+    .package-card-title {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .package-card-description {
+        width: 452px;
+
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .package-card-price {
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .package-card-button {
+        width: 150px;
+        height: 52px;
+        border: 0;
+        border-radius: 8px;
+        background: #FF5400;
+    }
+
+    /* get lost */
+    .get-lost {
+        width: 1170px;
+        margin: 110px auto;
+    }
+
+    .get-lost-container {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .get-lost-content {
+        width: 532px;
+        display: flex;
+        flex-direction: column;
+        justify-content: left;
+    }
+
+    .get-lost-head {
+        width: 448px;
+        color: #131318;
+        font-family: Mulish;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: 60px;
+    }
+
+    .get-lost-description {
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .get-lost-description>ul {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 26px;
+
+    }
+
+    .get-lost-video>iframe {
+        width: 610px;
+        height: 424px;
+    }
+
+    /* paymeny systems */
+    .payment-section {
+        width: 1170px;
+        margin: 110px auto;
+    }
+.payment-head{
+        color: #131318;
+        font-family: Mulish;
+        font-size: 80px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        text-align: center;
+        margin: 50px auto;
 }
-.get-lost-container{
-    width: 100%;
+.payment-icon-container{
     display: flex;
-    flex-direction: row;
-}
-.get-lost-content{
-    width: 532px;
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-}
-.get-lost-head{
-    width: 448px;
-    color: #131318;
-    font-family: Mulish;
-    font-size: 40px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: 60px;
-}
-.get-lost-description{
-    color: #5A5A5D;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-}
-.get-lost-description>ul {
-    color: #131318;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 26px;
-
-}
-
-.get-lost-video>iframe{
-    width: 610px;
-    height: 424px;
-}
-
-    /*newsletter  */
-.newsletter{
-    width: 1170px;
-    margin: 110px auto;
-
-    display: flex;
-    gap: 10px;
-    justify-content: space-between;
-}
-.newsletter-form-card{
-    display: flex;
-    flex-direction: column;
-
-    width: 474px;
-    height: 422px;
-    border-radius: 16px;
-    border: 1px solid #FF5400;
-    padding-left: 10px;
-    padding-right: 10px;
-}
-.newsletter-head{
-
-    /* border: ; */
-    color: #131318;
-    font-family: Mulish;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-}
-.newsletter-subtitle{
-    width: 350px;
-    color: #5A5A5D;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;
-}
-.form-container{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-
-}
-hr{
-    width: 400px;
-    height: 1px;
-    background: rgba(19, 19, 24, 0.10);
-}
-.newsletter-form-input{
-    border: 0;
-    width: 420px;
-    height: 50px;
-    padding: 0 10px;
-    margin-bottom: 16px;
-    border-radius: 8px;
-    background: rgba(19, 19, 24, 0.05);
-
-
-    color: rgba(19, 19, 24, 0.30);
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-
-.form-container>input[type="submit"]
-{
-    background: #FF5400;
-    color: #FFF;
-    text-align: center;
-    font-size: 20px;
-}
-
-.newsletter-promotion{
-    width: 672px;
-    height: 422px;
-    border-radius: 16px;
-    background: url("../Images/Rectangle\ 8\ \(1\).png"), lightgray 50% / cover no-repeat;
-}
-.save70{
-    width: 324px;
-    height: 120px;
-    transform: rotate(-20deg);
-    border-radius: 16px;
-    background: #FF5400;
-    text-align: center;
-    margin: 0;
-    padding: 0;
-    position: relative;
-    top: 225px;
-    left: 330px;
-}
-.save70-web{
-    color: #FFF;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 24px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: normal;
-}
-.save70-discount{
-    color: #FFF;
-    font-family: Mulish;
-    font-size: 32px;
-    font-style: normal;
-    font-weight: 800;
-    line-height: normal;
-
-}
-    /* footer content */
-.footer-container{
-    width: 100%;
-    height: 502px;
-    background: rgba(19, 19, 24, 0.05);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding: 110px 0px 110px 0px;
-}
-.footer-content-nameAndlogo{
-    display: flex;
-    padding: 0px;
-    margin-top: 0px;
-    flex-direction: row;
     justify-content: center;
-    align-items: center;
+    flex-direction: row;
+    gap: 100px;
 }
-.footer-content-aboutUs-details{
-    width: 769px;
-    color: #5A5A5D;
-    text-align: center;
-    font-family: Mulish;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 26px;   
+.payment-icon{
+    border: white;
+    border-radius: 50%;
+    width: 20%;
+    box-shadow: 10px 10px 20px #888888;
 }
-.footer-content-social-media-link{
-    width: 174.322px;
-    height: 24px;
-    margin-top: 32px;
-    margin-bottom: 50px;
-}
-.footer-content-horizontal-line{
-    width: 872px;
-    background: rgba(19, 19, 24, 0.10);
-    margin-bottom: 50px;
-}
-.footer-content-copyright{
- width: auto;
-}
+    /*newsletter  */
+    .newsletter {
+        width: 1170px;
+        margin: 110px auto;
+
+        display: flex;
+        gap: 10px;
+        justify-content: space-between;
+    }
+
+    .newsletter-form-card {
+        display: flex;
+        flex-direction: column;
+
+        width: 474px;
+        height: 422px;
+        border-radius: 16px;
+        border: 1px solid #FF5400;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .newsletter-head {
+
+        color: #131318;
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .newsletter-subtitle {
+        width: 350px;
+        color: #5A5A5D;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    hr {
+        width: 400px;
+        height: 1px;
+        background: rgba(19, 19, 24, 0.10);
+    }
+
+    .newsletter-form-input {
+        border: 0;
+        width: 420px;
+        height: 50px;
+        padding: 0 10px;
+        margin-bottom: 16px;
+        border-radius: 8px;
+        background: rgba(19, 19, 24, 0.05);
+
+
+        color: rgba(19, 19, 24, 0.30);
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .form-container>input[type="submit"] {
+        background: #FF5400;
+        color: #FFF;
+        text-align: center;
+        font-size: 20px;
+    }
+
+    .newsletter-promotion {
+        width: 672px;
+        height: 422px;
+        border-radius: 16px;
+        background: url("../Images/Rectangle\ 8\ \(1\).png"), lightgray 50% / cover no-repeat;
+    }
+
+    .save70 {
+        width: 324px;
+        height: 120px;
+        transform: rotate(-20deg);
+        border-radius: 16px;
+        background: #FF5400;
+        text-align: center;
+        margin: 0;
+        padding: 0;
+        position: relative;
+        top: 225px;
+        left: 330px;
+    }
+
+    .save70-web {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+    }
+
+    .save70-discount {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+
+    }
+
+    /* footer content */
+    .footer-container {
+        width: 100%;
+        height: 502px;
+        background: rgba(19, 19, 24, 0.05);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 110px 0px 110px 0px;
+    }
+
+    .footer-content-nameAndlogo {
+        display: flex;
+        padding: 0px;
+        margin-top: 0px;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-content-aboutUs-details {
+        width: 769px;
+        color: #5A5A5D;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 26px;
+    }
+
+    .footer-content-social-media-link {
+        width: 174.322px;
+        height: 24px;
+        margin-top: 32px;
+        margin-bottom: 50px;
+    }
+
+    .footer-content-horizontal-line {
+        width: 872px;
+        background: rgba(19, 19, 24, 0.10);
+        margin-bottom: 50px;
+    }
+
+    .footer-content-copyright {
+        width: auto;
+    }
